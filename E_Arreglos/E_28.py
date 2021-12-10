@@ -17,4 +17,4 @@ def producto_directo_elem(arreglo_1: list, arreglo_2: list):
     return producto
 
 
-print(producto_directo_elem(arreglo_1, arreglo_2))
+#print(producto_directo_elem(arreglo_1, arreglo_2))
