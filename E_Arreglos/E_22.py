@@ -1,3 +1,5 @@
+# Implementar la criba de Eratostenes para calcular los n´umeros primos en el rango 1 a n, donde
+# n es un n´umero natural dado por el usuario.
 
 def criba_de_eratostenes(n: int) -> list:
     numbers_list: list
@@ -34,8 +36,8 @@ def criba_de_eratostenes(n: int) -> list:
     return numbers_list
 
 
-number: int = int(input("Encontrar los numeros primos desde 1 hasta => "))
-print(criba_de_eratostenes(number))
+#number: int = int(input("Encontrar los numeros primos desde 1 hasta => "))
+# print(criba_de_eratostenes(number))
 
 """
 lst: list = [*range(2, n+1)]
