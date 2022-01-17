@@ -1,7 +1,26 @@
-from z_checkers import checker
-from B_08 import ordenar_valores
+import stuff as c
 
-# no se muy bien como funciona esto delos paquetes aun asi que copie los ejercicios acá
+# no se muy bien como funciona esto delos paquetes aun así que copie los ejercicios acá
+
+
+def ordenar_valores(arreglo: list) -> list:
+    arreglo_ordenado: list = [0]*len(arreglo)
+    for i in arreglo:
+        t: int = 0
+        for e in arreglo:
+            if i <= e:
+                t += 1
+            else:
+                pass
+        arreglo_ordenado[-t] = i
+    for i in arreglo_ordenado:
+        if i == 0:
+            arreglo_ordenado[arreglo_ordenado.index(
+                i)] = arreglo_ordenado[arreglo_ordenado.index(
+                    i)-1]
+    return arreglo_ordenado
+
+# 35. Union: Calcula en un arreglo la uni´on de los conjuntos y la imprime
 
 
 def union_conjuntos(conjunto_a: list, conjunto_b: list) -> list:
@@ -67,7 +86,7 @@ def pertenencia(a: list, b: list):
     temp: list = []
 
     print("Type a number to find in set A or B: ")
-    n = checker("int", "> ")
+    n = c.checker("int", "> ")
     print()
 
     for i in a:

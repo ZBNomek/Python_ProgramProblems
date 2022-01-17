@@ -1,7 +1,7 @@
 # 29. Desarrollar un algoritmo que determine la mediana de un arreglo de enteros (reales). La
 # mediana es el n´umero que queda en la mitad del arreglo despu´es de ser ordenado.
 
-from B_08 import ordenar_valores
+from others import ordenar_valores
 
 
 def mediana_elem(arreglo: list) -> float:

@@ -1,7 +1,7 @@
 # 34. Hacer un algoritmo que calcule el M´ınimo Com´un M´ultiplo (MCM) para un arreglo de enteros
 # positivos.
 
-from B_08 import factorizacion
+from others import factorizacion
 from E_27 import max_elem
 from E_33 import cantidad_primos_en_conjunto, primos_a_decimal
 

@@ -1,11 +1,5 @@
-from typing import ContextManager
-from z_checkers import *
-from F_35 import union_conjuntos
-from F_36 import interseccion_conjuntos
-from F_37 import diferencia_conjuntos
-from F_38 import diferencia_sim_conjuntos
-from F_39 import pertenencia
-from F_40 import contenido
+from operation_defs import *
+from checkers import *
 
 """
 Aqui hay funciones que hacen display de los menus y le dan la funcionalidad a estos.
@@ -158,7 +152,7 @@ Type below an option of the menu
 
     # dependiendo de el numero ingresado hace la operacion correspondiente
     if a == 1:
-        print("A ∪ B = ", union_conjuntos(A, B))
+        print("A u B = ", union_conjuntos(A, B))
     elif a == 2:
         print("A ∩ B = ", interseccion_conjuntos(A, B))
     elif a == 3:

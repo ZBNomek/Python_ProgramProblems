@@ -2,6 +2,8 @@
 
 # Esto se puede hacer con la funcion pow()
 
+
+
 def potencia(base: int, exponente: float) -> float:
     negativo: bool = False
     potencia: float = 1
@@ -15,9 +17,8 @@ def potencia(base: int, exponente: float) -> float:
         potencia = 1/potencia
     return potencia
 
-
 """
 base = 5
 exponente = 2
-print(potencia(base,exponente))
+print(potencia(base, exponente))
 """

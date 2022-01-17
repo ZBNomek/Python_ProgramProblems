@@ -4,7 +4,7 @@
 from E_22 import criba_de_eratostenes
 from E_27 import max_elem
 from E_28 import producto_directo_elem
-from B_08 import ordenar_valores
+from others import ordenar_valores
 
 
 # Funcion para sacar los numeros primos de la factorizacion de 1 un numero

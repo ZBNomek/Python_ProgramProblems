@@ -64,7 +64,20 @@ funcion_display_C17(radio, formas)
 
 """
 
----> Programa antes de simplicarlo que me dio pesar borrar :) <---
+
+
+
+
+
+
+
+
+
+
+
+
+
+---> Programa antes de simplicarlo, es que me dio pesar borrarlo :) <---
 
 # cuadrado:
 

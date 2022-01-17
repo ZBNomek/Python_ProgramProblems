@@ -1,4 +1,4 @@
-from z_program_functions import *
+from program_functions import *
 
 """
 Programa que permite hacer operaciones con dos conjuntos, dandole un menu al usuario en el cual solo sale del programa cuando el usuario lo desee
